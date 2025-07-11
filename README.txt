@@ -17,6 +17,11 @@ The gui can be opened by running 'sampsamp' in the Command Window.
 
 Version History:
 
+-----2.1 FORK (MBSsciencing) ----
+* Changes to GUIDE to make trigoff on startup, and default save location a file on C drive (previously Yuri U drive) 
+* Changes to .m file to force handle update so trig off is forced. Without those changes, sampsamp will continue to save data but will not plot photodiode or data unless you toggle trig on and off again. 
+ 
+
 --- 2.1 ---
 * Added a conversion script that converts the data output from SampSamp into a format useable by LabView
 * Fixed issue with saving timestamps in incorrect format
